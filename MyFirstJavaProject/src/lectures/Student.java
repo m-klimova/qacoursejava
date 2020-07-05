@@ -2,6 +2,9 @@ package lectures;
 
 public class Student {
 	// Example of instance variables
+	
+	private int test = 0;
+	
 	String name;
 	int facultyNumber;
 	String courseName;
