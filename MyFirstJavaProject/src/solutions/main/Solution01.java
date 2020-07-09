@@ -1,21 +1,11 @@
-package solutions;
+package solutions.main;
 
 import java.util.Scanner;
-import homeworks.*;
 
 public class Solution01 {
 	
-	public static void main(String[] args) {
-		// this calls class Solution01 instance method
-		messageAboutMyPet();
-		
-		// this creates an object of class Homework01
-		// and calls its instance method
-		Homework01 homework01 = new Homework01();
-		homework01.messageAboutMyPet();
-		
-	}
-	
+	// Provide name and favourite action of your pet
+	// And print them in a readable manner
 	public static void messageAboutMyPet() {
 		Scanner scannerObject = new Scanner(System.in);
 		
