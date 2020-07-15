@@ -2,7 +2,7 @@ package homeworks;
 
 import java.util.Scanner;
 
-public final class Homework02 {
+public final class Homework05 {
 	/*
 	 * 1. Replace a substring in another string with some text
 	 * Example: In string "My Name is Test" replace "Test" with your name

@@ -1,4 +1,4 @@
-package lectures;
+package c.module02.lecture06;
 
 class Lecture06 {
 	// instance variable with name string01 of reference type String
@@ -126,6 +126,11 @@ class Lecture06Demo {
 		}
         System.out.println(canDrive + ":" + canDrink);
         
+        // age can be of type:
+        // -  byte, short, char, and int primitive data types;
+        // - String
+        // - enumerated types 
+        // - certain wrapper classes: Character, Byte, Short, and Integer
         switch(age) {
         case 19:
         	canDrive = true;

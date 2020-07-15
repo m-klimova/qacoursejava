@@ -1,4 +1,4 @@
-package lectures;
+package a.module02.lecture04;
 
 import java.util.Scanner;
 
@@ -8,13 +8,22 @@ public class MyFirstJavaClass {
 	// it cannot be accessed from outside
 	private String NAME = "test";
 	
+	// A Java program has only one starting point - the main method
+	// The JVM search for it and executes everything in its body, i.e.
+	// all code lines (statements) between { and }
+	// main method is always declared the same way - its signature is always the same
+	// signature: line 16
+	public static void main(String[] args) {
+		calculateWeeklyHours();
+	}
+	
 	/*
 	 * 1. Enter how many days you are working per week
 	 * 2. Enter how many hours you are working per day
 	 * 3. Enter your hourly salary
 	 * 4. Return and print your weekly salary
 	 */
-	public void calculateWeeklyHours() {
+	public static void calculateWeeklyHours() {
 		/*
 		 * We use built-in Java class System to output, to write some data on the IDE's console.
 		 * In order to read from the same console data provided by user we 

@@ -1,15 +1,15 @@
 package solutions.test;
 
-import solutions.main.Solution03;
+import solutions.main.Solution06;
 
-public class TestSolution03 {
+public class TestSolution06 {
 
 	public static void main(String[] args) {
 		// Create an object of class Solution02
 		// and call its instance methods to test them
 		// All instance methods are not static so we have to create an instance of class Solution02
 		// to have access to them
-		Solution03 solution03 = new Solution03();
+		Solution06 solution03 = new Solution06();
 		
 		int dayOfWeek = 6;
 		String weekDay = solution03.checkWhichWeekDay(dayOfWeek);

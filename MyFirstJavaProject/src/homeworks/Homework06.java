@@ -1,6 +1,6 @@
 package homeworks;
 
-public final class Homework03 {
+public final class Homework06 {
 	/*
 	 * 1. Write a method that reads a number between 1 and 7 (int) from the console
 	 * and prints the corresponding week day

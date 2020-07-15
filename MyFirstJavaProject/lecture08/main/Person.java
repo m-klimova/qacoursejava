@@ -3,14 +3,21 @@ package main;
 /**
  * The superclass Person has name and address.
  */
+
 public class Person {
    // private instance variables
    private String name, address;
+   
+  // private Contact contactInfo; // Person HAS-A Contact
    
    /** Constructs a Person instance with the given name and address */
    public Person(String name, String address) {
       this.name = name;
       this.address = address;
+   }
+   
+   public Person(String name) {
+	   this.name = name;
    }
    
    // Getters and Setters

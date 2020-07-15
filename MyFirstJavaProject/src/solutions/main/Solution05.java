@@ -1,6 +1,6 @@
 package solutions.main;
 
-public class Solution02 {
+public class Solution05 {
 
 	// Method named replaceMyString(String string) with return type void
 	// and public access modifier

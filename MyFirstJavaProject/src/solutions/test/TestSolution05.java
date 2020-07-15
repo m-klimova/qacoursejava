@@ -1,8 +1,8 @@
 package solutions.test;
 
-import solutions.main.Solution02;
+import solutions.main.Solution05;
 
-public class TestSolution02 {
+public class TestSolution05 {
 
 	public static void main(String[] args) {
 
@@ -10,7 +10,7 @@ public class TestSolution02 {
 		// and call its instance methods to test them
 		// All instance methods are not static so we have to create an instance of class Solution02
 		// to have access to them
-		Solution02 solution02 = new Solution02();
+		Solution05 solution02 = new Solution05();
 		
 		// test method for replacing a text in a String with another text
 		String result = solution02.replaceMyString("This is my test string", "test", "JAVA");

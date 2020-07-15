@@ -1,6 +1,6 @@
 package solutions.main;
 
-public class Solution03 {
+public class Solution06 {
 	
 	// Method takes an int as argument and returns corresponding weekday as String
 	public String checkWhichWeekDay(int dayOfWeek) {

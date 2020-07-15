@@ -1,4 +1,4 @@
-package lectures;
+package b.module02.lecture05;
 
 class TypesAgain {
 

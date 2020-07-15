@@ -2,7 +2,7 @@ package solutions.main;
 
 import java.util.Scanner;
 
-public class Solution01 {
+public class Solution04 {
 	
 	// Provide name and favourite action of your pet
 	// And print them in a readable manner

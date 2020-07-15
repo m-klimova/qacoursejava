@@ -1,4 +1,4 @@
-package lectures;
+package d.module02.lecture07;
 
 class Lecture07Demo {
 

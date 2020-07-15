@@ -1,4 +1,4 @@
-package lectures;
+package c.module02.lecture06;
 
 public class Student {
 	// Example of instance variables

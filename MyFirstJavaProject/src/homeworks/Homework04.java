@@ -1,6 +1,6 @@
 package homeworks;
 
-public class Homework01 {
+public class Homework04 {
 	/*
 	 * Write a program that:
 	 * 1. Reads a pet's name

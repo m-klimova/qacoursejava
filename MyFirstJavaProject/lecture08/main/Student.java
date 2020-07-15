@@ -5,15 +5,25 @@ import java.util.HashMap;
 /**
  * The Student class, subclass of Person.
  */
+
 public class Student extends Person {
    // private instance variables
 	private String facultyNumber;
+	
+	private StudentIdentification stId;
 	// key/value pairs between course name and grade
 	private HashMap<String, Double> courses; 
 	
 	private HashMap<String, Boolean> coursePass;
-
-
+	
+	private double avgGrade;
+	
+	public void setGrade(double grade) {
+		if(grade <= 0.0)
+			this.avgGrade = 1.0;
+		else 
+			this.avgGrade = grade;
+	}
 	
    /** Constructs a Student instance with the given name and address and faculty number */
    public Student(String name, String address, String facNumber) {
@@ -33,7 +43,6 @@ public class Student extends Person {
       this.courses.put(course, grade + 1);
       
    }
-
    
    /** Prints all courses taken and their grade */
    public void printGrades() {

@@ -1,5 +1,5 @@
 // First line lists the package where this class is
-package lectures;
+package a.module02.lecture04;
 
 //We may need to import another library or class in our class.
 //We use import keyword like this one:
