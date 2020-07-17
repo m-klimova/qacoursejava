@@ -28,7 +28,7 @@ public class Solution06 {
 	
 	// Method that prints every single word of a String passed as argument
 	// If the word is break, abort the execution
-	public void printWordsInString(String myString) {
+	public static void printWordsInString(String myString) {
 		// Create a local variable of type Array of String
 		// to hold all words of the argument string which we get by splitting the String by space
 		String[] arrayOfWords = myString.split(" ");

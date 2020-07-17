@@ -9,6 +9,9 @@ public class TestSolution06 {
 		// and call its instance methods to test them
 		// All instance methods are not static so we have to create an instance of class Solution02
 		// to have access to them
+		
+		Solution06.printWordsInString("sdsdfdfdsf");
+		
 		Solution06 solution03 = new Solution06();
 		
 		int dayOfWeek = 6;

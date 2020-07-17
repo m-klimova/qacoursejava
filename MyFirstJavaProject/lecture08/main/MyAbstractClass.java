@@ -2,7 +2,7 @@ package main;
 
 public abstract class MyAbstractClass {
 	
-	// public abstract void myMethod();
+	public abstract void myMethod();
 	
 	// constructors
 	public MyAbstractClass() {

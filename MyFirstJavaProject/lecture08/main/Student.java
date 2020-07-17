@@ -25,11 +25,19 @@ public class Student extends Person {
 			this.avgGrade = grade;
 	}
 	
+	public String getFacNumber() {
+		return this.facultyNumber;
+	}
+	
    /** Constructs a Student instance with the given name and address and faculty number */
    public Student(String name, String address, String facNumber) {
       super(name, address);
       this.facultyNumber = facNumber;
       courses = new HashMap<String, Double>();
+   }
+   
+   public Student() {
+	   this("aa", "aaaa", "aaa");
    }
    
    /** Returns a self-descriptive string */
