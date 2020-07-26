@@ -1,6 +1,6 @@
 package solutions.test;
 
-import solutions.main.Solution04;
+import solutions.main.*;
 
 public class TestSolution04 {
 
@@ -10,5 +10,7 @@ public class TestSolution04 {
 		// we can call it via the class itself
 		// i.e. it is not needed to create an instance(object) of this class
 		Solution04.messageAboutMyPet();
+		
+		Solution06.printWordsInString("sdf");
 	}
 }
